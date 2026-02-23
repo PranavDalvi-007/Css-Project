@@ -1,0 +1,358 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samsung Mobiles</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+<header class="main-header">
+    <div class="header-inner">
+
+        <div class="header-left">
+            <span class="back">&#8592;</span>
+        </div>
+
+        <div class="header-logo">
+            SAMSUNG
+        </div>
+
+        <div class="header-right">
+            <svg class="icon" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="7" stroke="black" stroke-width="2" fill="none"/>
+                <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="black" stroke-width="2"/>
+            </svg>
+
+            <svg class="icon" viewBox="0 0 24 24">
+                <circle cx="9" cy="21" r="1"/>
+                <circle cx="18" cy="21" r="1"/>
+                <path d="M1 1h4l2.6 13h11.4l2-8H6" stroke="black" stroke-width="2" fill="none"/>
+            </svg>
+        </div>
+
+    </div>
+</header>
+
+<div class="category-bar">
+    <a class="active" href="#">Mobiles</a>
+</div>
+
+<div class="grid">
+
+<!-- CARD 1 -->
+<div class="card">
+    <div class="image-box">
+        <img src="images/s23-black.jpg" id="imgS23">
+    </div>
+
+    <h3>Galaxy S23</h3>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.8 (1245)</div>
+
+    <!-- COLORS -->
+    <div class="colors">
+        <span class="dot s23-black"
+        data-img="images/s23-black.jpg"
+        onclick="changeImage(this,'imgS23')"></span>
+
+        <span class="dot s23-cream"
+        data-img="images/s23-cream.jpg"
+        onclick="changeImage(this,'imgS23')"></span>
+
+        <span class="dot s23-green"
+        data-img="images/s23-green.jpg"
+        onclick="changeImage(this,'imgS23')"></span>
+
+        <span class="dot s23-lavender"
+        data-img="images/s23-levender.jpg"
+        onclick="changeImage(this,'imgS23')"></span>
+    </div>
+
+    <!-- STORAGE -->
+    <div class="storage-buttons">
+        <button class="storage-btn active"
+        onclick="selectStorage(this,69999)">128 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,74999)">256 GB</button>
+    </div>
+
+    <div class="price">₹69,999</div>
+
+    <!-- BUTTONS -->
+   <button class="buy" >Buy Now</button>
+
+   <button class="learn">Learn More</button>
+</div>
+
+
+<!-- CARD 2 -->
+<div class="card">
+
+    <div class="image-box">
+        <img src="images/s25-navy.jpg" id="imgS25">
+    </div>
+
+    <h3>Galaxy S25</h3>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.8 (1500)</div>
+
+    <!-- COLORS -->
+    <div class="colors">
+
+        <span class="dot" style="background:#1b2a49"
+        data-img="images/s25-navy.jpg"
+        onclick="changeImage(this,'imgS25')"></span>
+
+        <span class="dot" style="background:#b7c6c7; border:1px solid #c8eedf;"
+        data-img="images/s25-icyblue.jpg"
+        onclick="changeImage(this,'imgS25')"></span>
+
+        <span class="dot" style="background:#3d5a40"
+        data-img="images/s25-mint.jpg"
+        onclick="changeImage(this,'imgS25')"></span>
+
+        <span class="dot" style="background:#a0a8ac"
+        data-img="images/s25-silverShadow.avif"
+        onclick="changeImage(this,'imgS25')"></span>
+
+    </div>
+
+    <!-- STORAGE -->
+    <div class="storage-buttons">
+        <button class="storage-btn active"
+        onclick="selectStorage(this,74999)">128 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,80999)">256 GB</button>
+    </div>
+
+    <div class="price">₹74,999</div>
+
+    <button class="buy">Buy Now</button>
+    <button class="learn">Learn More</button>
+
+</div>
+
+<!-- CARD 3 -->
+<div class="card">
+
+    <div class="image-box">
+        <img src="images/a15-lightBlue.jpg" id="imgA15">
+    </div>
+
+    <h3>Galaxy A15</h3>
+    <div class="rating">⭐⭐⭐⭐ 4.3 (670)</div>
+
+    <!-- COLORS -->
+    <div class="colors">
+
+        <span class="dot" style="background:rgb(21, 31, 83)"
+        data-img="images/a15-blueBlack.jpg"
+        onclick="changeImage(this,'imgA15')"></span>
+
+        <span class="dot" style="background:#416281"
+        data-img="images/a15-blue.jpg"
+        onclick="changeImage(this,'imgA15')"></span>
+
+        <span class="dot" style="background:#d1ecdd"
+        data-img="images/a15-lightBlue.jpg"
+        onclick="changeImage(this,'imgA15')"></span>
+
+    </div>
+
+    <!-- STORAGE -->
+    <div class="storage-buttons">
+        <button class="storage-btn active"
+        onclick="selectStorage(this,14999)">128 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,16999)">256 GB</button>
+    </div>
+
+    <div class="price">₹14,999</div>
+
+    <button class="buy">Buy Now</button>
+
+    <button class="learn">Learn More</button>
+
+</div>
+
+
+<!-- CARD 4 -->
+<div class="card">
+
+    <div class="image-box">
+        <img src="images/s25ultra-gray.jpg" id="imgS25Ultra">
+    </div>
+
+    <h3>Galaxy S25 Ultra</h3>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.9 (2100)</div>
+
+    <div class="colors">
+        <span class="dot" style="background:#5f5f5f"
+        data-img="images/s25ultra-Gray.jpg"
+        onclick="changeImage(this,'imgS25Ultra')"></span>
+
+        <span class="dot" style="background:#cfd8dc"
+        data-img="images/s25ultra-silverBlue.jpg"
+        onclick="changeImage(this,'imgS25Ultra')"></span>
+
+        <span class="dot" style="background:#ffffff; border:1px solid #ccc;"
+        data-img="images/s25ultra-whiteSilver.jpg"
+        onclick="changeImage(this,'imgS25Ultra')"></span>
+
+        <span class="dot" style="background:#3a3938"
+        data-img="images/s25ultra-titaniumBlack.avif"
+        onclick="changeImage(this,'imgS25Ultra')"></span>
+    </div>
+
+    <div class="storage-buttons">
+        <button class="storage-btn active"
+        onclick="selectStorage(this,129999)">256 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,139999)">512 GB</button>
+    </div>
+
+    <div class="price">₹1,29,999</div>
+
+    <button class="buy">Buy Now</button>
+    <button class="learn">Learn More</button>
+
+</div>
+
+<!-- CARD 5 -->
+<div class="card">
+
+    <div class="image-box">
+        <img src="images/s24-onyxBlack.jpg" id="imgS24">
+    </div>
+
+    <h3>Galaxy S24</h3>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.8 (1800)</div>
+
+    <!-- COLORS -->
+    <div class="colors">
+
+        <span class="dot s24-onyxBlack"
+        data-img="images/s24-onyxBlack.jpg"
+        onclick="changeImage(this,'imgS24')"></span>
+
+        <span class="dot s24-marbleGray"
+        data-img="images/s24-marbleGray.jpg"
+        onclick="changeImage(this,'imgS24')"></span>
+
+        <span class="dot s24-cobaltViolet"
+        data-img="images/s24-cobaltViolet.jpg"
+        onclick="changeImage(this,'imgS24')"></span>
+
+        <span class="dot s24-amberYellow"
+        data-img="images/s24-amberYellow.jpg"
+        onclick="changeImage(this,'imgS24')"></span>
+
+    </div>
+
+    <!-- STORAGE -->
+    <div class="storage-buttons">
+
+        <button class="storage-btn active"
+        onclick="selectStorage(this,79999)">128 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,85999)">256 GB</button>
+
+    </div>
+
+    <div class="price">₹79,999</div>
+
+    <!-- BUTTONS -->
+    <button class="buy">Buy Now</button>
+    <button class="learn">Learn More</button>
+
+</div>
+
+
+<!-- CARD 6 -->
+<div class="card">
+
+    <div class="image-box">
+        <img src="images/s25fe-jetblack.jpg" id="imgS25FE">
+    </div>
+
+    <h3>Galaxy S25 FE</h3>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.7 (940)</div>
+
+    <!-- COLORS -->
+    <div class="colors">
+
+        <span class="dot s25fe-jetblack"
+        data-img="images/s25fe-jetblack.jpg"
+        onclick="changeImage(this,'imgS25FE')"></span>
+
+        <span class="dot s25fe-white"
+        data-img="images/s25fe-white.jpg"
+        onclick="changeImage(this,'imgS25FE')"></span>
+
+        <span class="dot s25fe-navy"
+        data-img="images/s25fe-navy.jpg"
+        onclick="changeImage(this,'imgS25FE')"></span>
+
+    </div>
+
+    <!-- STORAGE -->
+    <div class="storage-buttons">
+
+        <button class="storage-btn active"
+        onclick="selectStorage(this,64999)">128 GB</button>
+
+        <button class="storage-btn"
+        onclick="selectStorage(this,69999)">256 GB</button>
+
+    </div>
+
+    <div class="price">₹64,999</div>
+
+    <!-- BUTTONS -->
+    <button class="buy">Buy Now</button>
+
+    <button class="learn">Learn More</button>
+
+</div>
+
+<script>
+
+function changeImage(dot,id){
+
+    const img = document.getElementById(id);
+    const src = dot.dataset.img;
+
+    img.src = src;
+
+    const card = img.closest(".card");
+
+    // remove active ring
+    card.querySelectorAll(".dot")
+        .forEach(d => d.classList.remove("active"));
+
+    dot.classList.add("active");
+}
+
+function selectStorage(btn,price){
+
+    const card = btn.closest(".card");
+
+    card.querySelectorAll(".storage-btn")
+        .forEach(b => b.classList.remove("active"));
+
+    btn.classList.add("active");
+
+    const priceDiv = card.querySelector(".price");
+    priceDiv.innerText = "₹" + price.toLocaleString();
+}
+
+</script>
+</body>
+<footer class="mobile-footer">
+    <p>© 2026 Samsung Demo</p>
+</footer>
+</html>
