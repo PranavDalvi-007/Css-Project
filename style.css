@@ -146,7 +146,7 @@ body{
 .icons{
     display:flex;
     align-items:center;
-    gap:18px;
+    gap:15 px;
     font-size:0;   /* remove inherited size */
 }
 
@@ -551,3 +551,4 @@ body{
     }
 
 }
+
